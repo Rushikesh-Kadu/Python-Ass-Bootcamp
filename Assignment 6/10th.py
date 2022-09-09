@@ -1,0 +1,11 @@
+x,y,z=int(input("Enter 3 Numbers:")),int(input()),int(input())
+if x>y:
+  if x>z:
+    print(x)
+  else:
+    print(z)
+else:
+  if y>z:
+    print(y)
+  else:
+        print(z)

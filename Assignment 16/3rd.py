@@ -1,0 +1,6 @@
+t=(10,20,30,40,50)
+#print(t[::-1])
+t=list(t)
+t.reverse()
+t=tuple(t)
+print(t)
